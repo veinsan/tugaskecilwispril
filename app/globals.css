@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* variabel buat warna default (light mode) */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* darkmode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,6 +16,7 @@
   }
 }
 
+/* body */
 body {
   color: var(--foreground);
   background: var(--background);
